@@ -87,6 +87,14 @@ color: #E0B612;
     background: #495BC3;
     color: #fff;
 }
+button:disabled{
+    border: none;
+    margin-top: 20px;
+    padding: 10px 120px;
+    border-radius: 5px;
+    background: #747580;
+    color: rgb(235, 217, 217);
+}
 .notify {
     color: #fff;
     text-align: center;
@@ -95,6 +103,7 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+    display: none;
 }
 .notify-section{
     width: 35%;
